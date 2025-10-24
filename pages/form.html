@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <form action="submit.html">
+    <form action="submit.html" id="form">
         <label for="name"><b>Name:</b></label><br>
         <input type="text" id="name" name="name" class="area" placeholder="Enter your name" required minlength="2"
             maxlength="30"><br><br>
@@ -20,14 +20,15 @@
         <textarea id="message" name="message" class="area message" placeholder="Write your message here" required
             minlength="10" maxlength="500"></textarea><br><br>
 
-        <button type="submit"><a href="submit.html">Submit</a></button>
+        <button type="submit" id="submit">Submit</button>
+
     </form>
 
 
 
 
 
-    <script src="../scripts/script.js"></script>
+    <script src="../scripts/formvalid.js" defer></script>
 </body>
 
 </html>
